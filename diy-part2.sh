@@ -49,8 +49,8 @@ git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dns
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
 # Change Default Theme
-sed -i 's/Bootstrap/Argon/g' feeds/luci/collections/luci/Makefile
-sed -i 's/-bootstrap/-argon/g' feeds/luci/collections/luci/Makefile
+# sed -i 's/Bootstrap/Argon/g' feeds/luci/collections/luci/Makefile
+# sed -i 's/-bootstrap/-argon/g' feeds/luci/collections/luci/Makefile
 
 
 #添加额外软件包
